@@ -29,4 +29,12 @@ as it says, a + abs(b). the trick being that it
 always does a (something) b, and the something
 is defined by the if statement about b rel to 0.
 
-1.5 (1:16-1:18)
+1.5 (1:16-1:18) (6:55 - 7:03) (10)
+with applicative order, it never tries to evaluate p (because it doesn't need to since the conditions are good). with normal order, it evaluates everyting first, so it ges into an infinte loop looking for stuff. 
+
+1.6 (7:06 - 7: 25) (19)
+it took a while to get the recursive stuff clear. I kept looking for a logic error and wrote the fucntions semi-from scratch.
+It recurses infinetly because with a conditional caluse, the sle clause is actually evaluated, where as if is a special form where the predicate is evaluated FIRST and then only one branch is run.
+
+1.7 (7:35 - 7:39) 
+
