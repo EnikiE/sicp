@@ -20,4 +20,13 @@ m. 16
    (* 3 (- 6 2) (- 2 7)))
 ;Value: -37/150
 
-1.3 - 10:34 - 11:20 (distractions + compiler erros unfinished
+
+1.3 - 10:34 - 11:20 + 1:04-1:09 (distractions + compiler erros unfinished
+(total 50)
+
+1.4 (1:10-1:11) (1)
+as it says, a + abs(b). the trick being that it 
+always does a (something) b, and the something
+is defined by the if statement about b rel to 0.
+
+1.5 (1:16-1:18)
